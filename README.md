@@ -32,6 +32,11 @@ yarn install
 templ generate
 ```
 
+### Build assets
+```bash
+node esbuild.mjs
+```
+
 ## Dev
 ```bash
 task watch
