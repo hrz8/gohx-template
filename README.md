@@ -1,6 +1,6 @@
 # gohx
 
-Just a template for fullstack app using `Golang` + `htmx` + `templ`.
+Just a template for Fullstack Web App using `Golang` + `htmx` + `templ` with SPA-like router.
 
 ## Pre
 
