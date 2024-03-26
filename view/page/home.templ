@@ -1,0 +1,17 @@
+package page
+
+import (
+    "github.com/hrz8/gohx/view/layout"
+    "github.com/hrz8/gohx/view/component"
+)
+
+templ homeBlock(name string) {
+    @component.Nav()
+    <div>Helo, { name }!</div>
+}
+
+templ HomePage(name string) {
+    @layout.LayoutMain() {
+        @homeBlock(name)
+	}
+}
