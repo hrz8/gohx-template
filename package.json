@@ -1,0 +1,14 @@
+{
+  "name": "gohx",
+  "version": "0.0.1",
+  "repository": "https://github.com/hrz8/gohx.git",
+  "author": "Hirzi Nurfakhrian <hirzinurfakhrian@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "bulma": "^1.0.0",
+    "esbuild": "^0.20.2",
+    "esbuild-plugin-copy": "^2.1.1",
+    "esbuild-sass-plugin": "^3.2.0",
+    "htmx.org": "^1.9.11"
+  }
+}
