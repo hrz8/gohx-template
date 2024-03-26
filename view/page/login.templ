@@ -1,0 +1,17 @@
+package page
+
+import (
+    "github.com/hrz8/gohx/view/layout"
+    "github.com/hrz8/gohx/view/component"
+)
+
+templ loginBlock() {
+    @component.Nav()
+    <div>Login Form</div>
+}
+
+templ LoginPage() {
+    @layout.LayoutMain() {
+        @loginBlock()
+	}
+}

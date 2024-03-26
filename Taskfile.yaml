@@ -1,6 +1,9 @@
 version: "3"
 
 tasks:
+  watch:
+    cmds:
+      - air
   watch:fe:
     cmds:
       - node esbuild.mjs --watch
