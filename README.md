@@ -2,20 +2,16 @@
 
 Just a template for Fullstack Web App using `Golang` + `htmx` + `templ` with SPA-like router.
 
-## Pre
+## Tools
 
-### Install `templ`:
 ```bash
+# Install sqlc
+go install github.com/sqlc-dev/sqlc/cmd/sqlc@latest
+# Install templ
 go install github.com/a-h/templ/cmd/templ@latest
-```
-
-### Install `task`
-```bash
+# Install task
 go install github.com/go-task/task/v3/cmd/task@latest
-```
-
-### Install `air`
-```bash
+# Install air
 go install github.com/cosmtrek/air@latest
 ```
 

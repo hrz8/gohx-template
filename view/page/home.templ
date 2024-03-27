@@ -3,15 +3,20 @@ package page
 import (
     "github.com/hrz8/gohx/view/layout"
     "github.com/hrz8/gohx/view/component"
+    "github.com/hrz8/gohx/internal/repo/db"
 )
 
-templ homeBlock(name string) {
+templ homeBlock(app *db.Apps) {
     @component.Nav()
-    <div>Helo, { name }!</div>
+    if app == nil {
+        <div>No apps</div>
+    } else {
+        <div>Hello, {app.Name}!</div>
+    }
 }
 
-templ HomePage(name string) {
+templ HomePage(app *db.Apps) {
     @layout.LayoutMain() {
-        @homeBlock(name)
+        @homeBlock(app)
 	}
 }
